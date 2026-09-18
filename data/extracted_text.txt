@@ -1,0 +1,3208 @@
+
+--- Page 1 ---
+How Python Works :
+
+Interpreter
+
+“pyc
+
+“PY
+           10101
+cone |----->| |eometen|---->   Byte   _—_  Virtual    _>| Outpet |
+code           machine
+Source                   i                                  |
+code                fie, tava
+ow leve
+t                    code  &  library
+High level
+code.
+
+Why Python :
+*  Python is very powerful and simple language compare to other languages
+
+*  Python is used literally everywhere, and you can use it
+in order to build everything.
+
+%& Examples - building websites, to work with data, to build games
+
+etc.
+
+*  Python is high in demand.
+Shortcuts :
+
+e We can add shortcuts in visual studio code
+
+¢ Search preferences : keyboard shortcuts
+
+Bonus  Upgrades  '
+
+e In extensions : we can add Themes
+Some popular themes :
+
+¢ Auto Pep8 — A standard format in Python code
+Ly Shortcut : Shift + Ctrl + P — search : format document.
+
+
+
+--- Page 2 ---
+What is a comment :-
+
+eal
+
+A comment is a note in your code , python just skips it.
+
+Why we need comments :
+
+% It can make code understandable easily
+
+% It is in professional way
+
+Inline comment > X=9 # final exam score.
+
+Summary :-
+% comments are notes in code
+% python skips comments
+
+%*& comments make code :
+
+understandable , Readable , professional.
+
+Print () function :
+Print Q) is a built-in python function that displays messages
+
+on the output screen to communicate with users.
+
+Summary :-
+% Built-in python function
+*  Display messages in output for users
+
+*& use cases:
+
+communicate , showresult , Debug , Test
+
+
+
+--- Page 3 ---
+Special characters :-         Example :-
+\" = Double Quote          print ‘o Hi" python " ss
+Ls Error
+
+\oo5  Single Quote              L
+\\ > Back slash          print ("Hi \" python " ")
+\n — Newline (add newline)                (or)
+
+print (' Hi "python" ')
+\t — ~ tab                ee
+\b — Backspace              print (" message1\n")
+
+print ‘Ge msg 2")
+print (" path : C:\user\sai")
+
+o/p:- msg.
+J                     msg 2
+
+print path : C:\\user\\sai")
+
+Python  challenge i
+
+—> use print() to recreate exact output, you are allowed to use only
+
+one print ()
+
+output > you learning path :
+
+- Python Basic
+- Data engineer
+- Al.
+
+code e     print ae Bes  your learning path :
+
+It- Python Basic
+It- Data  engineer
+It i   AI   wou my
+
+Wit1tn
+
+Triple Quotes :
+
+Allows us to write text in multiple line strings.
+
+(3)
+
+
+
+--- Page 4 ---
+Variables :
+
+What is a variable :
+
+A variable is a name you create to store a value ,
+so you can use it later in your code.
+
+How variable works :
+
+——a—e—r—a  a~mr eee
+
+output
+
+x=at  ~
+
+-
+
+€ .
+print(x) # ._ 7 7 > ae
+
+variables
+
+Use of variables :
+
+print ("  my name is sai ")
+print ("sat is goodboy WY
+print ("sai wants  engineer nm)
+
+If we want chang the name from sai to RAM so It take
+more time and clumsy to do.
+
+But using variables {ts so easy.
+
+wt.» x= “ea 5 wales,             By using this we can
+name   print ( my name ts "®)        change easily.
+print ("x , fs good boy ")
+print ("x _ wants engineer "
+
+Variables make updates super easy one change updates
+
+everything.
+name = “ sai”              staticpart
+_ oN        "
+language  -    python   —_> (" name") — variable.
+print ("  my name is”, name )
+
+print ( "name, " is learning", language )
+
+print ( name, "“ want to become", python , “engineer” )
+
+
+
+--- Page 5 ---
+Make    programs    dynamic
+
+Name to store a value
+Stored in memory
+
+Reusable anytime
+
++ + + +
+
+Updatable   anytime
+
+Python  challenge :-
+
+- Print following 3 lines
+
+- Add a variable to make it dynamic
+
+o/p—> “info @ data with baraa.com”
+“support @ data with baraa.com”
+
+“www. data with baraa.com.”
+
+code :-
+
+Y
+
+name = " data with baraa.com”
+print (" info @”, name)
+print (" support @”, name)
+
+print (” www.”, name)
+
+@) remove space we can use:
+Method-1 :-   string concatenation
+print (” info @” + name)
+
+Method-2:- use sep=" ”
+
+print (" info @”, name, sep=" ”)
+
+Method-3 :-  f- string
+print (f ” info @{name}”)
+
+bestway
+\, Method-3 :-   f-string
+print (f” info @{name}”)
+
+if we write like this
+The output have containing space.
+so we & use some methods to
+
+get  exact output.
+
+name = ” data with baraa.com”
+print (” info @” + name)
+print (” support @”, name, sep =” ”)
+
+print ( f ” www.tname}”)
+
+ee ey
+
+
+
+--- Page 6 ---
+function’s.
+
+print() > Display something to user   I Two important    (6)
+
+input() —> Get something from user
+
+What is input() ? :-
+A built-in python function that        your program to get
+
+user   input
+
+input (“ Enter your name y
+
+tnput () and variable :-
+using input() alone reads the user response but immediately
+discards it
+
+> To keep the value, assign it to a variable
+
+name = input (“ Enter your name”)
+
+Hard coded values vs dynamic values :-
+
+Hard coded value (static) :-
+Fixed piece of data written directly into your code
+that never changes at runtime
+
+ex i- country = “India ”
+
+Dynamic  values :-
+
+data entered by the user that can vary each time
+
+the   program   Runs
+
+exi- name = input (“ Enter your name”)
+ex prog i-
+name = input (“ Enter your name”)
+country = Germany ‘
+
+print (name , “ comes from” , country )
+
+%& input () makes your prog interactive
+
+
+
+--- Page 7 ---
+Data   ty pes :                                                                                   (7)
+
+What is a Data type ?
+A datatype is a classification that specifies what type of value a
+
+variable can store and what operations can be performed on it
+
+Simple meaning :
+It tells the computer :
+
+e what kind of data is (num, text etc)
+¢ How to handle the data
+
+Why   datatype  ?
+
+e Know how to operate data
+
+str.           re * aie         int int            str     str
+Xx                          2+3 a5     Sige? 2S a2 = hog
+       wer          function              x             ron
+int.     sn  4                                 Adding numbers     Joining numbers
+allowe
+
+* Python automatically detects datatype
+* Dynamic : Data types can change Any time.
+
+‘                    Advanced
+a  :
+Data types categories    —            datatypes
+
+datatypes
+NO value          single value                  multivalue
+.                      list [1,2,3]
+Nothing           int
+
+~                at da)
+Bool                     tuple (‘a','b’)
+
+
+
+--- Page 8 ---
+# data types :-                             (8)
+
+— oe                                         7
+[\
+a= 10      # int   — whole number without decimal
+b = 3.15      # Float — numbers with decimal points
+c = “Hello”
+
+# string > represent text (or) a sequence of characters
+
+d = ‘Hi’
+
+e = "1234"               written inside single (or) double quotes
+
+f = True  }  # bool —> can be either True (or) False
+\ in False                used to handle logic and decision making
+h = None    —> means no value , “ nothing " (or) none
+
+It is used to absence of any data
+
+at   "
+
+i=       — Blank    is a string value with no character
+
+inside , it is not same as None.
+
+Functions :-  Value —> Function — new value.
+standard
+library          standalone —> print(), type()
+[ pandas, numpy,          |
+tensorflow }              .         methods of class —> upper()
+Function
+3 d-par ty                                                                  replace( )
+libraries             |
+user defined        operations —> + | >< == in
+or
+
+function
+
+
+
+--- Page 9 ---
+standard  library
+
+ar
+Built-in module               math- module
+int                      a6
+lent)                                         roun
+type             upper ( )           to_bytes()                     float
+:           replace( )
+print ()
+Functions :                      Methods :
+*  independent block of code       * functions belong to objects / classes
+syntax :                                                          syntax :
+function name ( value )                value. method_name ( )
+ex? print ( “Hello” )               ex:    “hello’. upper ( )
+type  ( 50)                          50. bit_ len ()
+
+Summary  :
+
+* Each value has a datatype handle the value
+This helps python decide how to handle the value
+
+It automatically detects datatype
+dynamic : Data types can change anytime
+
+3 categories :
+NO value : nonetype
+
+single value: int, str, bool , float, complex
+
+multi value: set, tuple, dict, list
+
+* values are objects of datatypes class
+
+ee ee ee er ey
+
+
+
+--- Page 10 ---
+(So SHHKESEHHHHHHHHEHEHEHHEKHHEHHEHEHEEEHEHHHEELEHEEEEELEEHEG
+
+CHAPTER-2 — # Working with strings
+
+Why is handling string data is important ?:-
+
+Text ¥5 everywhere              x text data often has poor quality
+
+— File names
+— User input
+—- Web data
+-     Logs
+
+String function categories -
+
+isalpha() — starts with alphabets
+isdigit ()  — ends with digits
+
+validation
+
+isnumeric() — find numeric
+
+¢   os    ¢
+
+isdecimal() — ‘0’ in ‘cat’
+
+endswith ( )
+
+iswhite() — clean white spaces
+strip ()
+
+lstrip ()
+
+rstrip ()
+
+setrip () — clean cases
+
+lower ()
+
+upper ( )
+
+cleaning
+
+Stri ng
+
+find() - ‘cat’ in ‘cat’
+search  : startswith ()
+
+replace() —  fa? Se
+transform         in ()        =~ Peed
+- modify          split() — SPLE
+join ¢ )     — ‘hae’
+extract() — ‘cat’ [0]
+
+extractall() — ‘cat’ [ ]
+
+len ()
+
+Math
+count ()
+
+str ()
+
+
+
+--- Page 11 ---
+TBuilt-in Function :-                       1 1
+
+=
+
+TYPE (obj ) :-
+eee”
+veturns the datatype of a value,
+
+So you know what kind of object is
+
+Nome = “Dinesh”       olp:- <class ‘sty! >
+print ( type (name) )
+Note :- cant combine a string with an integer using + operator
+
+sty (value) :-
+converts  any  value into string  value
+o/p:-
+<class ‘int’ >
+~ class ‘sty >
+your age ig + 24
+
+Exi-  age = 24
+print ( type (age) )
+print ( "your age is ooNee sty (age) )
+
+string function math :-
+
+hen (value) :-
+
+LDL —erm""
+
+vyeturns no-of ttems in a value
+yeturns the no- of characters in a string
+
+password = “Worsta   olp:- 5
+
+——
+
+print (ten (password ) )
+hen count everything even spaces
+
+usecase : validate input Length
+
+prevents value that ave too short or too Long -
+
+vr
+
+Sica cee eee eevee ane ee ives asi
+
+%)
+
+
+--- Page 12 ---
+a)
+>
+
+count (substring ) t-
+eine                                              12
+
+yeturn how often a word appears in the string
+
+syntax:- text. count (value)
+
+python is case sensitive and
+
+means uppercase and lowercase letters ave treated as different
+
+EXi- = text = ee               Use Case:
+thon ts
+Py   iS cas to learn Detect Quality issues
+python is                 (,
+J    is powerful         x count How many unwanted
+
+many peopl           ee
+y people love python       characters in my data.
+
+count case
+
+print (text. count (" python "))
+
+0] P:- 2
+
+——
+
+Replace (old, new) *-
+
+part of the text with something new
+
+Swaps
+o/pi-  176 [1234/56
+
+exe phene = " 96-1234-56"
+
+print (phone . replace (os",, cy)
+
+anging values gee
+them with an empty
+
+can also
+
+yeplace () is not just for ch
+
+yemove unwanted parts by replacing
+string (" ")
+
+methods are executed
+on the resu
+
+tn order from left to vight
+
+Chained
+It of the one before it
+
+each replace () runs
+ex:- price = "$1277 44"
+print (price - veplace ("$"," "). veplace("," »  wy)
+ofp:- 1299-99
+
+
+
+--- Page 13 ---
+Puthon challenge +-
+els: ee
+Convert the messy phone number into a Clean number format
+
+with only digits
+“ 449 (176) 123-4567"
+
+(0)  is       v               q
+[Pi- ph = “449 (176) 123-4567"
+ie i, . replace (
+
+. replace ai a eee)
+
+print ( ph. replace (+            “¢","") replace (")","")-
+
+veplace ce", ")
+491761234567
+
+‘ string oe ' string '     ( joins [concatenates } two strings into one )
+LL
+
+firstname = « michael"
+fast name  = “igcove “
+last-name = first name ae" + last name
+
+print ( lastname )
+
+michael - scott
+
+oP to
+———
+USeCcase +
+Aaygid File porns (build dynamic paths using folder ee
+{
+variable )
+
+i i
+elieeeeeceéeceteerve ee cCeeaeeaee se ecerrer & i
+
+
+--- Page 14 ---
+SSeS eee See |
+
+ve
+
+~S
+
+D>
+~
+~~
+a)
+~S
+~S
+~~
+
+~~
+SS
+a)
+——)
+—)
+a)
+i)
+
+d build
+
+F- strings are modern, Super-easy way to format an
+strings
+
+“£" stands for “formatted ”
+
+viables and expressions divectly inside
+
+lets you easily put va
+the string value.
+
+sample let            NoTe :-
+
+wnex~r~r”*
+name = “Sam"        can only concatenate only string
+7 fae 34           values (not int)
+
+ts student = False
+
+without f-string &-
+wie,
+“Tom: + sty (age) +
+
+print ee my name is” + name +
+" 4 sty(is_student) +”)
+
+. years old, and student status is
+
+with LeSSUa o-
+reoeayno5000e07
+print (F" rey name is {name}, Tam {age} years old, and
+
+student status is {is_student}.")
+
+Same for By   print (£" 043 = {2+33")
+
+en) s-
+
+o/P:- My name is Sam, I am 34 years old, and student
+
+status is False.
+a = 5
+print (f" add this is me {2+3}")
+
+0/P:- add this is me 5
+
+
+
+--- Page 15 ---
+“Adam - 24 - USA :
+
+—_——      ——       ———
+
+©  2)
+
+[ “Adam', 24, ‘ysa |
+
+op   split Ce)
+
+be a list
+
+split (seperator) breaks a string into smaller parts
+
+of   strings ;
+
+olp:- list of strings
+
+.
+
+sample code :-
+anes oe
+stamp = "2026-04-20 14:30 4
+
+print ( stamp. split (" ny)
+
+olp:- ['2026-09-20', 'I14:30"]
+
+Now Break a date into year, month, and day parts
+stamp = “2026-04-20°
+
+print ( stamp . split (*="))
+
+ole ['2026', '04', ‘20"]
+
+string repetition :-  ( ‘string’ # number )
+Ran” Quaere0"ea—"
+repats the string multiple times
+|   output: string
+   usecase %-
+aoOoworner-
+
+te a clear  sections in
+
+use repeated characters to crea
+
+output
+ex:- print (“hai" * 3 )    # ‘hai’ repeated 3 times
+print (“#" # 10)  #'#" repeated 10 times
+
+olp:- hahahaha
+HHHHHHHH
+
+SPepePe PI sePeesee22222
+
+PPPS
+
+PPP PPD
+
+PP
+
+S
+ce,
+«
+e
+
+
+
+--- Page 16 ---
+DATA EXTRACTION
+
+Indexing & Slicing -
+
+he ee el 0
+a eae
+
+Each character has a position number (index)
+
++ positive  index %-          —___—_—?
+a                     h e@ & Ul) 70
+Starts from left to right      ee aa
+
+- negative index t-        ——————
+h e t tt ©
+
+Moves from right to left     cia =e oe a1
+
+Indexing t-               sy"
+w
+
+w h
+
+t    s
+[-s1 ~—————4
+
+jee em eee
+sy)"
+Slicing :- [start + end |
+LS
+ae         Not included .
+=§   -4  Pi ee ee
+We eee eae             -53-3)
+re   ab   2  3  A     olp :- “he”
+Start              end
+ova > she [eves
+2
+=
+
+—
+—
+
+“hel”
+
+
+
+--- Page 17 ---
+ee ee eS Oe SR a a
+
+OREN “ENDED: SETCING = 1 Goa (eave Glam Gates aye
+
+Rey een "r_—”
+
+Python starts from index o)
+
+fet Bae tae
+[ . fi    olp . Wo!
+
+—
+
+GENERAL FORM :-
+
+n+ pv
+
+[ start : end : step |
+EX7= [ot 4: 2]
+Ly it Skips every second character.
+olp :-   u hl n”
+
+INDEXING ‘-
+
+A a—ooeeerres» -2-—
+
+Extracts one character by position.
+
+text = “ python”
+
+print ( text C-6] )        olps= p
+print ( text [5] )         olpi- on
+SLICING :-     ( start : end : step)
+RAaan-r"r-“~Y
+
+Extracts a part of the string .
+date = “ 2026-09-20"
+
+print ( date (0: 4)          olpi- 2026
+
+
+--- Page 18 ---
+ee
+
+Data    cleaning  ‘-
+
+eer”
+
+Removing    spaces %-
+eee”
+
+Owen"
+Lstvip()                ystvip()
+2 WON         ee)
+
+white space
+
+(or) we can use strip()
+
+* we want to yemove spaces from only
+From only vightside use rstvip()
+
+fyom both sides use stvip()
+
+* we want to remove spaces
+
+* we want to remove spaces
+
+use case t-
+
+may re”
+
+*% It removes tabs and multiple spaces at stavt and
+
+middle
+
+% NOTE $- only yemove spaces
+
+#* It vemoves any characters
+
+not just spaces -
+case conversion ‘-
+A~~ meeaeeaeae$cn”"
+lower () i- (stv method )
+
+makes all letters lowercase
+
+upper() t- (stv method )
+
+makes all letters Uppercase.
+
+usecase t-
+
+* clear Data for matching
+
+1
+é[pir “Aan
+
+left side use Lstvip()
+
+(or) end , not in the
+
+ot start and end
+
+you want from start and end
+
+sample code 3-
+ano” ——"~
+
+text = ‘ Dinesh SAT "
+
+print  ( lower ( text ) )
+print ( upper (text) )
+
+Dinesh sat
+
+DINESH SAT
+
+
+--- Page 19 ---
+Python   challenge  :-
+
+”
+
+“ 468 -Maria, (D@t@ Engineer)); 244...
+
+clean the string |
+
+o/p > name: maria  | vole: data engineer | age: 24
+
+Code :
+
+text = “468-Maria, (D@t@  Engineer )) ; 274..."
+
+name = text. split (‘- TEL} splieC Py (Oct, replace ("@”,"a")
+vole = text. split(',') (tJ. split (')” \(o]
+
+age = text. split CU sole 200d
+
+vesult = “name :” +name +"| vole :” +yvole +” [age :” + age
+print (result)
+
+name: maria | role: data engineer | age: 27
+
+
+
+--- Page 20 ---
+bad
+
+PIII
+
+Searching :-
+
+Rawr"
+4. Startswith  (substring )
+RAwAaa»»_ err"
+
+2. endswith ( substring ) i
+KDARmRYOrr>srv
+
+3.
+
+checks if string begins with a specific word.
+
+phone = “49-176 -12345      olp:- TRUE
+
+print ( phone. startswith Cana") )
+
+olp:- FALSE
+
+—_—
+
+email = " bavaa@ outlook.com”
+
+print  ( email. endswith (“@ gmail.com") )
+
+To check the text is valid (or) not
+
+‘substring | IN ' stying | t-
+
+Aanms“er)_ avmrv—w’”
+
+checks if a word exist in 0 string
+
+email = - baraa@ gmail.com"    olp:- TRUE
+
+print ("@" IN email" )
+Find() is the great when combined with other methods
+
+to add    dynamics
+
+Find ( substring) :-
+LLRALRLAL0ee"”l’/™>Y"’
+
+Returns the starting position of a word in the string
+
+
+
+--- Page 21 ---
+PPR PEPER Eee eee eT
+
+Gude
+
+Rrererery
+
+Validating  tH
+
+eis alpha) :- output: boolean
+
+checks if the string has only letters
+
+country = “usa”          olp :- TRUE
+
+print  ( country -isalpha() )
+
+country 2: “gna”         olp :- FALSE
+
+print ( country . isalpha() )
+
+eis numeric() :- output: boolean
+
+checks if the string has only numbers
+
+phone = " 01234564"        olp :-  TRUE
+
+print ( phone. isnumeric() )
+
+NOTE :- Not accept float, Specialcharacters, alphabets.
+
+
+
+--- Page 22 ---
+PLL
+
+Chapter-3 :-    Working with numbers :-
+
+validation
+
+Numeric                                  is integer ()
+
+is instance ()
+is
+
+‘Types         Math operations    Rounding     Advanced     Random
+:                                                  math
+2 type 0)        - 34+2           - abs()                     — yandom()
+- 3-2          - round ()    - save ()      - yandint ()
+- int()           - 3*2            ~ ait.)       - sin()
+- 342
+- complex ()     ~ 372         - trunc()    - log ()
+- 3**2
+
+Note: To use numeric we should import math module.
+
+Number functions :-
+—_—~_—e—mx_—_—«v’—w
+
+Types 3
+
+4. int (value) (built-in function)
+
+Converts comparable value into int value
+
+x2 *ay®            : Olpt- — < class ‘sty’ >
+print ( type(x))       |        < class ‘int’ >
+
+print ( type (x))
+
+* We can convert float number into integer
+
+olp:- 3
+
+—_—_—
+
+EX= *% = 3AG
+print ( int (x))
+
+
+
+--- Page 23 ---
+2. float (value) (Built-in function )            (23)   -
+Aaneareaeseuaesees                                          ,
+
+converts comparable value into float value.
+
+xXx =. 3            olp:-  3.0
+print ( float (x) )       ee
+
+3. Complex (veal, imag )  ( Built-in function )
+
+creates a complex number using veal and imag naiy
+
+parts
+X= 3           olp:-  344)
+ge
+
+print ( complex (x,y) )    olp:-
+ee & 5 £ 2.8
+MATH OPERATORS :-
+
+print C243)         Addition
+print  (5-3)
+
+5
+— Subtraction
+
+print (4* 2)     > Multiplication
+—
+
+print Ce e9      Floor division (It divides two numbers and
+younds down)
+
+print Cau 2)   — Remainder (The left over part after division —
+
+print a ee |              used to check if a number is even )
+
+print  (2** 3 )   — Exponentiation  (It yvaises a number to the power of -
+number )
+
+<operator > = (Shorthand assignment )
+
+eae
+
+Apply an operator and veassign the yesult in one step
+
+X+= 3 (oR) x= xX+3 (same)    a
+print (x)
+
+aM eal afl ll lhl ll ll a eal el ll ll
+
+
+--- Page 24 ---
+ROUNDING :-
+
+4. abs (value) :- (built-in function)
+
+yeturns the absolute  (non-negative ) value of a number
+print ( abs(2-10) )            olp:- 8
+
+useful for measuring distance (or) size, regardless of divection.
+
+ROUNDING NUMBERS :-
+
+floor ()        :    ceilC)                 round()
+
+floor
+
+Math. floor (x) :-   Rounds a number down the floor
+
+Round half to even :-
+
+ra
+
+In Round it will check
+whether number is even
+
+oy not.
+
+NOTE :-
+e floor() is not a built-in - function
+
+e floor () belongs to Math module — import it before using
+
+
+
+--- Page 25 ---
+Soro                                                                              Pay
+|     ROUNDING FUNCTIONS (continued)                             26          a
+e
+
+1. math. floor(x) :- (math module)                             eo
+
+Rounds a number down to the floor
+
+(greatest integer less than or equal to x)                           €
+
+Exi- X= 3.15684
+
+print (math. floor (x))    ofpi- 3
+2. math. ceil(x) :- (math module)
+
+Rounds a number up to the Ceiling
+
+(smallest integer greater than or equal to x)
+
+ex X= 3.15684
+
+print (math. ceil (x))         olp:- 44
+Soe ai waar tabi awaz,
+3. round (x) :- (built-in function)             How. ie queeke 2
+
+Rounds a number to the nearest whole number    e If decimal part < 0.5 — Round down
+
+up or down depending on what's Closer.         e If decimal part > 0.5 - Round up
+
+e If decimal part = 0.5 >
+
+EXeS    X= 3.15689
+
+print (round (x))      OLR 2
+
+== == === 5
+
+(Banker's Rounding)
+
+|
+\
+
+|
+
+|
+
+|
+
+\
+
+|
+
+Round to the nearest EVEN number |
+|
+
+|
+
+|
+
+4
+
+Banker's Rounding (Round half to even) :-
+
+If the decimal part is exactly 0.5, it rounds to the nearest even number.
+
+Examples 2 ee ee   45> 4 555 6 |e5 56
+
+(2 is even) | (2 is even) | (4 is even) | (4 is even) | (6 is even) | (6 is even)
+
+More Examples :-
+
+|         yound (2.3) = 2                 yound (3.5) = 4 (even)                Remember.
+yound (2.7) = 3              yound (4.5) = 4 (even)            When decimal part is 0.5
+yound (-1.4) = <1!          yound (7.5) = 8 (even)          it rounds to the
+yound (-!.6) = -2             yound (8.5) = 8 (even)             nearest EVEN number.
+4. yound (number, ndigits) :- (built-in function)
+OE IRE ELE IE PBS
+
+Rounds number to the specified number of decimal places.
+
+Exi- price = 35.54689744
+print (round (price, 2))      olp:- 35.55
+
+ooppprprrrrerrr iii
+
+
+--- Page 26 ---
+PIPE EL ELE LELEE ELLE LE LL EL EEE EE
+
+ROUNDING FUNCTIONS (continued)                           27
+
+4.
+
+int() —> Converts to integer,
+
+math. trunc(x) :- (math module)
+
+Cuts off the decimal parts and gives (keeps) the
+
+whole number (no rounding )
+
+Exi-  price = 35.548798
+ojps= 35
+
+35
+
+print (math. trunc (price))
+print (int (price))
+
+int ()    vs trunc()
+
+   trunc() > Always returns the
+may cause issues if number    integer part without any
+
+1
+
+1
+
+is very large (overflow).        rounding or Conversion issues .
+
+* If you've not using math  already ,
+Just use int() it’s simple  and built-in.
+* «if   you've already imported math,
+use trunc() it makes   your intent clearer.
+*% Use int() for   general   purpose conversion.
+use trunc() when   clarity is important.
+Use :-
+
+yound() -> Handy in data analysis to clean up numbers
+
+for reports or save spaces
+
+ceil() —-> Perfect for data engineering - like Splitting dota.
+
+into pages or batches .
+
+floor() —> Useful in pagination, division of items, etc.
+
+tyrunc() —> Useful when you just want to remove decimal part
+
+without     rounding  :
+
+
+
+--- Page 27 ---
+RANDOM & VALIDATION FUNCTIONS            28
+
+RANDOM :-
+
+2 random () =  ( vandom function )
+
+yeturns a random float between 0.0 and 1.0
+
+import  random
+
+Ex:- print (random. random() )     of p:-  0.498.-.-
+2.   randint ( start, end) :- ( vandint function )
+
+gets a vandom whole number from start to end
+
+(both included )
+
+import random
+afp:- 5
+Ex:- print  ( random. vandint (4, 6))
+
+Use it to generate test dota (dummy )
+
+for like age, ID, ov prices.
+
+VALIDATION :-
+
+A  is integer () t- (Float class method )   (is a whole
+
+number )
+checks if a float has no decimal parts
+
+glee           o[p:- TRUE
+print (x. is-integer () )     ofp:
+y= Fd
+print ( y. is. integer () )    ofp:- FALSE
+Use :-
+
+e Checks if numbers are truly whole
+
+e Floats with .0 might just be from file exports
+
+PREP PRPPRPR PPPS EP EL
+
+2 ”n
+fi
+
+2?
+ee ee cel
+
+
+
+--- Page 28 ---
+UCU EUEULLLLLLUULLLLEUUUL ULE
+
+INSTANCE (value, type)  :- (built-in function )         29
+
+— Checks if a value belongs to a certain datatype.
+
+Ex:- x = 70
+
+print (instance (x, int) )
+
+instance (value,  type )
+
+|
+
+|
+
+I
+
+  e value —> the value to check
+ e type —> the datatype
+
+f
+
+|
+
+(class )
+
+Python  Challenge ‘-
+
+Generate a random integer b/w 1 and 100,
+
+and check if result is an even number.
+
+import random
+
+x = random. randint (1, 100)
+
+print (x)
+if (x%2 == 0):     olp:- 46
+print (“True”)             TRUE
+Use :-
+
+e vandom() —=
+
+e yandint() —-=
+
+e instance() —-
+
+Useful for simulations, games,
+
+lottery » ete.
+
+Useful for generating test data,
+
+IDs, Yanges , etc.
+
+Useful for type checking and
+validating data.
+
+
+
+--- Page 29 ---
+   LOGIC & OPERATORS
+
+CONTROL FLOW :-
+
+It is the Logic you write to control how your
+code runs.
+
+"should I run this part of the code
+" should I skip it"
+
+"should I repeat it? "
+
+LOOPS
+
+CONDITIONAL STATEMENTS
+eee eee’
+
+iti
+
+TRUE
+
+FALSE
+
+To repeat until certain
+condition is TRUE.
+
+To run only one either TRUE
+or FALSE. Based on decision.
+
+make decision             Repeat task.
+
+30
+
+
+
+--- Page 30 ---
+SPECIAL INSTRUCTIONS                                                                                 3 1
+
+IN PYTHON To CHANGE | —> | CONTROL FLOW
+THE FLOW
+
+VALUES                             LOGICAL OPERATORS
+
+CONTROL FLOW STATEMENT
+
+¢ CONDITIONAL STATEMENTS
+
+    (re) [ewe
+
+PUNGHONS                    COMPARISION OPERATORS
+
+Loops Tyres > [or] [white] Bigia
+
+CONTROL
+MEMBERSHIP               IDENTITY
+
+break  Continue       [i |
+=       [is ]
+is not
+
+BUILD QUESTIONS (CONDITIONS)
+aS
+
+=             Python can evaluate as “yes” or “no” (True or False )
+
+BOOLEAN :-
+
+4. bool (value) :- (built-in function)
+
+TRUE — if the value is non-empty or non-2evo
+
+FALSE — if the value is empty or zero
+
+EX:-                                 0/P:-
+gs    — print ( bool (123) )           cas              oe&
+:                              Laie         | NoTE:-
+a,          print ( bool (“123 ))      iat        ,
+*                            |» None means no value   |
+          ia ae i          Seis          |  + Empty means the value  |
+print ( bool (0) )          FALSE            |       Pv                   |
+|       exist, but empty   string
+°                                                     ee ee=!
+
+None means no value.
+
+Empty means the value exist, but empty string.
+
+
+
+--- Page 31 ---
+UUU UL vULUUUU ELL UYYL ELL
+
+ot)
+
+=)
+
+vvuv9
+
+ol
+i
+al
+i
+a
+
+we
+
+any () :- (built-in function)                       32
+Returns True if at least one value is TRUE.
+
+FALSE              FALSE             TRUE
+
+PF} La
+
+TRUE
+
+~_—_
+
+ALLO) :- Cbuilt-in function)
+
+Returns True if all values are TRUE.
+
+FALSE       FALSE       TRUE      TRUE       TRUE       TRUE
+      way      "at
+
+7
+|
+
+Email = “"
+
+Phone = “ 012-484"
+
+user = “Dinesh123”                    of :-
+
+print Cany (Email, Phone, user) )     TRUE
+
+print (all (Email, Phone, user))     FALSE
+
+e None means no value.
+
+e Empty means the value exist, but empty string.
+
+
+
+--- Page 32 ---
+eee ee eee eee ee ELE REL EE,
+
+COMPARISION OPERATORS :-                                          33
+
+It compare two values and return True (or) False
+
+Based on the result.
+
+True
+Value operator value ? {
+False
+value     3 > 2 > True                 COMMON COMPARISON OPERATORS
+variable   x< 2   > False   (If x= 5)         Equal to
+‘                                       Not equal to
+expression 2-41 I= 2      >
+P                       False                 Greater than
+function    len ("Hi")  == 3    > False                    Greater than or equal to
+Less than
+
+2
+
+Less than or equal to
+
+Nog) Gn eee eae°
+SOTO   e Strings can be compared too!
+
+rint ("q" == "b"   >            ae a ce aes
+P    (          )       False          ( Python is case sensitive}
+So “a” and “A” ave treated as different values.
+A            A
+
+/                             t
+[ = = signs                      oe paves
+
+CHAINED COMPARISION :-
+
+—~wT EE SESS SES
+
+Check multiple conditions in one Line just like Math.
+
+print (1 <4<¢ 6)   o/p:- True
+
+| —> It evaluates it from left to right , checking \
+each condition one by one.
+— It is True only if all conditions are True. |
+
+
+
+--- Page 33 ---
+LOGICAL OPERATORS :-                                                 34
+
+Logical operators (and | or) used to combine multiple
+
+boolean   expressions.
+
+AND :-
+
+—_
+
+e Both must be True.
+
+AND operator has
+higher priority then OR.
+
+OR :-
+
+n“—
+
+e Atleast one is True.
+
+3<5 or
+
+a |
+True
+3>5   or
+es |
+False
+3 <5   or
+———" |
+
+True
+
+3>5 or
+_ |
+
+False
+NOT OPERATOR :- (It reverse the truth)
+e it turns True into False and False into True.
+
+not True       => False
+
+not False      => True
+
+>
+>
+=)
+>
+=)
+>
+, 2
+>
+>
+>
+>
+_2
+>
+3
+=]
+, 2
+>
+>
+>
+=)
+>
+>
+>
+>
+_ 2
+>
+, 2?
+, 2
+>
+>
+>
+=]
+
+
+
+--- Page 34 ---
+TASK $=                                                       35
+
+Allow access only if the user login or they are quest
+
+but they must not banned.
+
+is— logged_in = True
+iS_ guest                  False
+
+is_ banned                 True
+
+print ( ( is_logged_in  or  is_quest ) and not is_banned )
+
+True                              True                                         True
+
+o/p:- False
+
+MEMBERSHIP OPERATOR (in) :-
+
+checks if a value inside another value
+
+like a string , list, tuple or other sequence.
+Ex i-  print [e* in False )  > True
+print ( 3 in [',2,3] )  > True
+TASK :-
+Validate that the domain is not on the banned list.
+
+domain       = gmail com"
+
+banned_domains = ["spam.com", “bot.net", “ face .org "]
+
+print (domain not in banned_ domains ) o/p > False
+
+
+
+--- Page 35 ---
+IDENTITY OPERATOR :-                              36
+
+checks if two variables refer to the same object
+
+in memory.
+xX   [ ‘a’, 'b', ‘e’ |
+Y   [ ‘a’, "b's ‘e" |
+print (x =< y ) ofp True (compare values )
+print (x isy ) olp> False  (compare ids)
+TASK :-
+
+validate the email address it must be filled in
+
+and not    empty ,
+
+NO value ot all, it is unknown
+
+an empty but it is known, it is string
+
+
+
+--- Page 36 ---
+2
+>
+=>
+= |
+=
+=>
+=
+= |
+= )
+=
+2
+= |
+2
+a |
+=]
+
+=
+2
+=)
+2
+
+2
+= |
+
+=3
+
+ELUULULUYE
+
+PYTHON CHALLENGES :-
+
+A.
+
+Check if a username is not empty and the age
+
+is greater than or equal to 18.
+
+Check if the password is atleast 8 characters long
+
+and does not contains spaces.
+
+Check if a user’s email is not empty , contains '@' and
+
+ends with ‘.com'
+
+Check if a username is a string , is not None , and is
+
+longer thon 5 characters
+
+Check if the user is either an admin or a moderator
+
+and either they ave not banned or they have to verified
+
+Admin         +          Moderator
+
+Not banned                             Verified
+email
+
+theiy email.
+
+
+
+--- Page 37 ---
+CHAPTER-5    CONDITIONAL STATEMENTS 3—
+
+(WAaIA——™——""
+Tt is a checkpoint in the code that checks a condition
+
+¢ Condition is TRUE 2? Runs the code
+
+° Condition is FALSE ? Skips it
+
+IF STATEMENT :-
+
+Defines the first condition
+
+(“IF this is tvue, do this
+only one “if!
+
+- otherwise , do nothing Ee)
+
+Stayt with ‘if
+
+req uixved
+
+QUESTION
+BooLEAN
+
+CONDITION
+Do
+
+(Do NOTHING)
+
+Can Standalone .
+
+1
+i
+'
+}
+|
+|
+|
+|
+|
+'
+|
+|
+|
+|
+1
+|
+
+INDENTATION :-
+
+Adding Spaces between at the beginning of a line
+
+to Show that the line belongs to a code block.
+
+e It is past of an Syntax.
+
+if True?                              \
+ae                   \
+
+print (“ Hello”) <— inside block    Without indentation   \
+\
+
+|
+
+print (“ Done” )   < outside block     —> Evvor (Syntax Error )
+
+
+
+--- Page 38 ---
+ELSE STATEMENT %-                                                             aq
+
+——
+
+alt previous conditions ave FALSE
+
+Runs only if
+LES t-
+Stovt        ‘  pues
+if condi:               : 80      1 3 Comes at end
+\                one
+do A          ne   xi        | 3 No conditions
+else *                          Chie LE
+ba                <5        | ¥ Optional
+do B           :
+©             | do A |  i %¥ Cannot stondalone
+* only one ekse.
+
+pppe
+
+MULTIPLE CONDITIONS (elif) :
+
+Asks a follow-up question only if previous conditions
+
+were FALSE.
+if condi.
+
+: if the fivst wasnt true            do A
+try this one ”            elif cond2*
+Storxrt                 do B
+else »
+do Cc
+
+Rules 3-
+
+comes after if
+
+multiple   ehift
+
+needs condition
+
+optional
+
+x * * * *
+
+Connot stondalone .
+
+r
+
+
+
+--- Page 39 ---
+BRANCHING (elif elif ...)!-
+
+Note :-
+
+* Python evaluates Boolean
+
+* Avoid explicit comparisons
+
+print (" Positive")
+x
+print ("Zero"
+
+40
+
+inside another
+
+NESTED IF :-
+
+—_——~—OQOwTe™
+rf
+if
+
+wit the First
+
+Statement
+
+is true,
+
+u
+then Check the second -
+
+©
+k
+
+Start
+
+conditions   divectly ‘
+
+= True or
+
+KEY POINTS :-
+
+Checks multiple conditions in order.
+Runs the first TRUE block.
+Else runs only if all ave FALSE.
+
+Makes decision making easy & clean.
+
+
+
+--- Page 40 ---
+Sample code *—
+Rear
+
+= int (input (G Enter the Value
+
+cubmited — project = TRIE
+
+if neve WO:
+if submited — project ©
+print iC ax")
+
+else *
+print  « )
+
+print  ( cc
+ehe woe 70%
+
+print   (os Ce
+else:
+
+print  C ee
+
+Connecti na    condition %—
+WY              PRADO
+
+@
+
+if      y              TRUE
+[a]
+
+F     Return TRIE
+only if both are
+
+41
+
+ot nt!)
+
+connecting    Statement —
+Dn ~     DARA
+
+After    using
+wee
+
+Score = 10
+
+Submited — pro) = FALSE
+iL score >= 40 and submited — pro) :
+print ( A+")
+elif Score >= 10:
+print (Cone
+elif score >= 80:
+print ("B"
+elif Scove >= FO:
+print (2 ee)
+
+else °
+print (SF "
+
+Independent TFS -
+DDD DADE be
+
+Each tf is checked separately
+
+“AW Conditions are hested — ever
+if one is already TRVE.”
+
+EX s-
+
+rr
+
+© if.
+
+else:
+
+
+
+--- Page 41 ---
+Inline if 3 -                            a0
+
+L—eesrarer-s-
+
+anline tf
+
+if cond’ -°
+dona      __, |'do A if condt else do B
+
+Quick 3 Short
+
+élse °
+do B
+EXi-
+“X= SA 1b SCO >=90 ese Li
+Score = \OO
+
+grade By ye fe SCOLS qo else we”
+
+print   (grade )
+
+NoTE °.-  Simple Logic = inline -\f -
+Z   :
+complex logit = classicar -if -
+
+MATCH - CASE
+RI
+
+@ against murtiple values ,
+
+Evaluate a Val
+Sixst match .
+
+Runs the code of the
+
+WASK .=
+convert the full county names into 2 letter abbreviations .
+on
+
+ox
+
+a
+=
+=
+mL
+i.
+:
+:
+Bs,
+al
+:
+a
+*
+Se)
+:
+”
+‘
+‘
+
+
+--- Page 42 ---
+= 0
+sy
+=~
+
+Normal way ;-               using match - Case :         43
+u
+County = “INDIA”         match country :
+if Country == “united states”:      case “united states” :
+print (as*                    print (0s?
+u    :  ie,
+elit  Country a gndia’ :           Case   Tndia  ‘
+print (22%)                rae (*In")
+case “e€  te
+elif country == “egypt”:                 gJP
+©    uU   y
+print (* eq")                 print ( Eg )
+default :
+else :    :             :
+ovi ne (“unk netont)                 print ( unknown country )
+use case i-
+* Loy flexible logic and
+* easy § write
+
+multiple conditions.
+* can be used only for matching
+
+Values
+
+SOP DI SR SL. 2 ee
+Summary  ‘-
+
+et == tarts: the 1$* condition
+
+e elif :- Adds a follow-up condition if the previous is false
+e else :- None of the conditions are met
+
+Stand alone tf :- Just checking
+
+if-else-statement :- This or that
+
+if-elif-else i-  Branching —> Choose one from many «
+
+nested EF i= Layered Tree > Step-by-step   decision
+
+independent IF :- “Checklist mode ”
+
+
+
+--- Page 43 ---
+Python   challenge =                                             44
+
+Validate the quaity and correctness of Email values
+
+— Must not be empty
+
+— Must contain ',’ and '@’,
+
+— Must contain exactly one ‘@’ symbol
+— Must end with ‘com’, *- org’ ov net”
+— Must not be longer  than 254 Char
+
+— Must Start and end with a letter or digit .
+
+OuTPuUT :-
+
+is alphaNum ():-  checks if the String contains only letters
+
+and   digits.
+
+NOTE:- You want +o Step at the first condition that
+
+vetumns true?
+if- euif— else.
+You want oul conditions +o be evaluated
+
+Independent  if Statements.
+
+on Oo
+@ge@ace@aceeaeceetaeeceeeeranceren
+
+
+
+--- Page 44 ---
+—_)
+cs
+6»
+6 »
+6»
+6»
+
+a)
++ ©
+
+Tlrree ae lele elle ele!
+Ceuveed ev dddbbddddd
+
+code :-
+=—aq                                                                                     eae
+
+Email = baeraa @ gmail. com 7
+
++ clean the string
+email = email. strip ()
+
+++ gmail must not be empty
+
+wi ¢
+°
+
+if Email ==
+
+print (“ Email cannot be empty")
+
+# mail must Contain a '.’ and '@’
+elif not ('.' in Email and ‘@’ in Email) :
+
+print ("" Email must Contain . and @")
+
+# gmail must contain exactly one @
+elif Email. count C@*) !2213
+
+print (" Email must contain exactly ‘one @.")
+
+4+ Email must end with ‘. com’, '. org’, or ‘. net’
+
+elif not Email. endswith (‘. com’, ‘org’, ‘. net”):
+
+print (“ Email must end with ‘, com’, ‘. org’, or ‘. net"
+
+
+--- Page 45 ---
+© © © © OG OG GO GG
+
+oowewd sus
+ouoTweod
+ooouoouoeoeueoueoueoueoeTueweoedd ©
+oeoeoed ©
+
+oO oO oO &
+
+oO
+
+oO € OO &. © © © O© © © © © .G
+é
+
+ca)
+
+ae CHAPTER 6          rer ou
+—— a —— oe
+Loop °-
+control ane Flow oF code (ot)
+over
+
+Repeat   a   plock   of    code
+
+Types   Be  Loop .-
+
+and over   untl
+
+46
+
+=—
+
+i @ condition ts met
+
+1) For Loo?   ‘) wahile Loo? -
+For Loop :-
+:
+For Loop 9° tnvough % group of items
+Loop .    gequence -      An object Ynat (ets you ge through
+a  (           items OnE by one mn @& Sequence:
+i oe  ag                 Tnside sequence -
+
+print  (i)
+
+we Can use Step also.
+
+vange (start , Stop, step) > vange (07!) 2)
+
+tT  sequence we Can Use   rile
+ray
+*   4                Tuple
+List
+String
+For Loop in Real world data.
+—_ ——S= SS
+Scores = [ 30, 50, 60, #5]
+totol = 0
+foy Score in Scores :
+total += Score
+oF total )
+
+print (“current total :
+print ("final total :”, totat )
+
+Range Cstart, stop )
+
+C not inside sequence -
+
+ii @ 2 & & 8
+
+———
+
++42 42 +2 42
+
+Range -
+dict .
+
+NOTE :-
+bee
+
+we   should
+yoriable ,
+
+use Loop
+not the sequence -
+
+
+--- Page 46 ---
+We use fox Loops
+before processing :
+
+Files =  *  Report - CSV :  ;   : data.csv’
+
+Here we have inconsistent casing & unnecessary
+TE a person is Data Engineer Gi) Analyst
+He shoud Clean the data
+for file in   Files :
+
+file = gite.stvipQ- lower (). eplace C+
+
+print   Cf in   processing  g file 5")
+SIP s-         processi ng    veport “CSV
+0        data. CSV
+u        finat. CSVv-
+
+Advanced loop :-
+——_— —   =——
+
+When to StoP ,
+
+when to SKIP, when to break.
+
+Break    statement +
+Te stop the Loop immediately -
+
+Tt jumps out and ends the loop right a
+
+exi- for i in (1,253):     o/P:-
+teen:       “a
+break
+print Ci)
+
+to transform data Uke Cleaning data
+
+47
+
+Finot .Txt’ ]
+
+spaces
+
+xt’, ‘sv’ )
+
+PPPPRPRPRPPRPPPPPPEPP PRP PREP SPS
+
+ff
+
+
+--- Page 47 ---
+$)_§_§,
+
+©
+
+O_O OF Oy © © © ©
+
+©
+
+©
+
+wy
+
+©.
+
+4
+
+Vv uv YU
+GGQQ066G ¢
+Y
+
+Continue    statement :-
+=
+48
+
+in
+Tt Skips one loop cycle without stopping the loop
+
+one and go next -
+
+Skips Ais
+EX'-
+:       ;      ‘    ,
+names = [i john', None» = 9 Kumar’ |
+Loy name en names °
+wc oname => ue
+print C' Empty Value detected!)
+continued
+
+print (f' name - § name}! )
+
+pass     statement t-
+=             —— —
+
+holder where nothing happens -
+
+Te if @ place
+
+For now-- just keep going di
+ace holder to be chang
+
+0  nothing .--
+
+Tt is just pl           ed later.
+
+names  &  (Al, Wig se ‘p']
+ofP:-
+for name wn names :                  Che
++f nome == wes                    Name = A
+\         t   28
+le em   yolue
+er  * ee   Py          ra  = unknown
+name = name - replace (*' “unknown )          é
+it   =   x
+
+=  § nome}')
+
+print (fi name =
+
+NOTE +—
+=—
+Loops    only    when   there 1S &
+
+yse | ELSE "with
+
+preak -
+
+
+--- Page 48 ---
+While loop te
+—_—— —
+Repeats a block of code - over and over as long
+as condition is TRUE!
+taal       p—— initfolizario”         49
+white + 4    ee condition
+print (1)   pe updake
+a A +41                     :  roe
+ae            \ stuck in infinity loop.
+wil
+TE we don't use tnese 3 we
+oS                       king “D     agree a”
+askin   fo) you     2
+tak  Keeps     4
+.       yo
+ae  : :      “ues ”
+until  ene sev ype  J   :
+Sol.-          wu
+=—   answer =                      ;
+while answer |= “yes #   ( Do you agyee a(yes/no): 5
+fine = input (“Do you agree 7 )      exist normally
+U                  u
+print (* Thank you")              after
+gee
+
+see
+while TRIE ~   ( most powersh and v's 4)
+a
+
+_———
+\     €%
+while TRU   (    v)       . must nave extra fe break
+‘     “type
+oa oF   3           isk in infinite loop -
+4   | faery
+if k == stop *
+preak -
+
+[O"9N DOD HD HH HHA HD A
+9nnoan
+fa)
+
+
+--- Page 49 ---
+a aA_A
+6)..|€).. 6)
+a a a) ae: es
+
+»o wv WY
+»o ovo YW
+uv uv YU
+4ooeovJEe”?d
+
+uvJeo VJ YY
+uJg 7
+yv7¢ge”gdg
+
+v¢g
+
+AWK
+7 on oe (ae (yn Gy Ve (GY
+
+py
+
+C
+
+Advanced Dota Types .-
+es             50
+
+——— ea
+CHAPTER - 4 °—    DATA  STRUCTURES
+
+DATA   STRUCTURES —
+—o a
+a way of organizing and storing data $o
+
+2 used      effi ciently ;
+
+Tt is
+it con b
+1) List £3) = Common
+a) tuple 1 7 ™ change
+
+3) set ft —» unique
+y) dict {+ —» Key value
+
+WHY DATA   STRUCTURES +—
+——    a
+
+=
+We need dota styuctuves in python to store,
+
+organize
+
+manage  dota  efficiently -
+
+ato structures , handling
+
+Standard
+libvory
+
+Built in
+
+£ dota    become
+
+and
+large    amounts ©
+
+Without     A
+
+difficult     and Slow:
+
+add()
+
+yemove ()
+
+count ()
+index ()
+
+append ()
+insevt()
+
+
+
+--- Page 50 ---
+Functions vs    Methods !-                                            51
+Function                        Method
+———                                             SS
+
+costs = (10, 20,30)         Costs = (10, 20,15)
+
+len (costs)              Costs. remove (10)
+Output
+output      ead [ remove | ey Shs,
+
+Input —+ [ten]
+3        (10, 20,15)
+
+[ 10,20, 30]
+
+ppp rps
+
+flexible ¢
+
+DATA STRUCTURE Pts7stii-
+—e—erre —_—_~"
+
+ower
+* A List is ordered collection of items. Jt is ver
+
+changeable
+Xx Allow      duplicates
+* Widely used in python .
+
+Advanced :-
+
+Basic   Operations  ‘=
+—                                                      a
+
+=s tow to create 7           —> How to iterate ?
+
+— How to access & read ?       = Hew transform ?
+— How to  unpack ?              es ‘faa #2  filter ?
+
+> Ua th explores ange f      — List  Comprehension ?
+— How to change 9
+
+— How to  organized 9
+
+— How to copy 2
+
+— How to Combine ?
+
+POH HH MH MHMHPH HH HHH OND
+
+
+--- Page 51 ---
+n
+Bi i iE ic OE i a OO OM Ol OO OL Oa On OV OO OO
+
+ie)
+SO OO © OO © © © © © © © © © © © © © © ©]
+
+create Lists t-
+52
+
+° create an empty List ?
+; :             ofp-- C)
+print (empty )          a
+print (type Clist))
+
+<class ‘List’ >
+
+e create a List by adding items manually ?
+letters =  (ar, ‘b , vel, a" ]     o/p:-  (“ar ‘b', ‘Gi, ‘d' |
+print (letters)
+
+e Behind The Scenes :-
+
+pf fF pe [|
+wee fe Pw Pe Por wae
+These ave created
+
+2
+
+—_
+SF 2048 3023 4ot2   pat 2                s
+outside the List
+
+he
+
+sade          inside use the Store addvess.
+
+°
+
+ow
+
+x We can mix datatypes in the same List.
+
+DATA
+mixed = [1, ta’, TRUE, FALSE |          are
+
+By using Built-in - Function :—
+Oe
+
+List (Value):- built-in function
+converts an itevable (sequence) into a Ust-
+
+letters = List (‘python’)
+
+print (letters )
+
+Numbers = List Crange(s))
+
+print    (numbers )
+
+
+--- Page 52 ---
+7)
+
+eed Lists  MATRIX )
+yale                            53
+
+Nested List Matrix +
+——_—__en
+
+a
+Inner list
+outer
+list     (    1 Row
+9 dimensional.
+Behind the scenes :—
+——— —_—_—_
+inner lists      F
+inner list
+
+outer
+list
+
+trix
+me                                                                      0x022
+0x023
+
+0x024
+
+list
+
+0x025
+
+ox026                                                              inside
+
+0x024                                                                    use
+the
+Store
+address
+
+*K We can mix datatypes in the same list.
+
+mixed = [ 1, ‘a’, TRUE, FALSE ]
+
+Recap :—
+—
+Empty List           Nested List :-
+
+x=C]            x= (fay ee. [es d)
+x = listC)
+
+Manual creation :-
+SS ee
+
+
+--- Page 53 ---
+mM
+YG
+
+A f A A f 7 MM Mh A Hh fh A Hh A A Hh HAH HH AH Hh MH
+OUUUUOKUOKUOKOKHOKHOKHOKHOKOKOKOOOOUOKeKoUens”d
+
+7)
+
+Read & Access :- CLISTSO))            54
+
+=—                                                                      A&——owun'—-W
+
+Get First Item fyom the list
+oe el ee
+pink Cele) ) Geb fest them tem the list
+print (ist (-1]) 4 Get last item from the list
+olp:-  fot      NOTE:- use -ve indexes to access items from
+a           the end of list.
+Ht Get c from the list
+print ( Ist f-2))
+
+Access § Read Nested List ( MATRIX) 3- ( Indexing )
+
+—_——
+
+int ( MATRIX) —>   ite
+
+2 at
+
+Row O                    p                  d e Ff | — whole matrix
+Row |                                        3  hi
+
+Row 2                     print ( matasx (1) = — Complex row
+
+print ( materx (13 (11) == — one single value .
+
+in matrix
+
+Slicing <- To print 2 elements
+
+First (Index) > default.
+
+[st-=  Pat yeas ojp:-       |
+print (Ist [ £21) aH Grek first to hems from Ist  |  [ee]     |
+print ( tse:(, 2? ]) 4 Get last two items from lst  | <n |  !
+print (ist C : \) 4 To print whole list    pe eA)
+
+
+--- Page 54 ---
+mt = [ Cia, 'by
+
+pri nt      ( motrix
+
+print  ( matrix (1:
+
+4t To slice
+
+[o:2]) #
+
+tcl, (1,213), ( True, FALSE, ' Not’) |
+
+Get first two Rows (tists)
+
+J) # Get the last 2 Yows (tists) from Mt
+
+inside one specific yow
+
+print ( matrix C2IL: 2))
+
+SUMMARY :-
+
+oo
+
+How to Access & Read ?
+
+Store :    ‘at |  'p!    to!
+4
+
+° Indexing :  get 4 single
+
+°   Slicing  :
+
+get   multiple   i
+
+UNPACKING    LISTS ¢-
+a  a=—=—s——
+
+e We
+
+list, you are packing your
+
+we can       use
+
+can do in python with
+
+un packing    in
+
+the list and put it in
+
+Ext   person = [ ‘maria’,
+
+=——
+
+without unpacking :
+
+name
+Age
+Role
+Country
+
+person [o]
+person [1]
+person [2]
+person [3]
+
+ofp:- [TRue, FALSE 1
+
+item X(t]
+
+toms xT
+
+our list. As you create your
+
+‘tems inside container and
+
+order to take the items out of
+
+different   variables .
+
+29, | Data Engineer’, ' Spain’ J
+
+(o
+
+, an |
+
+yan nrnn nm” f
+NaAanannn
+m  onnnannann
+j   Annae ©
+————— S.C hUmrlhlt(<“<CiC
+
+
+--- Page 55 ---
+a
+—  Without unpacking using only indexes make code long and
+—  hard to extend.                   56
+cy  By using unpacking :
+—   Use of variables , separated by commas   print (name )
+=)     name, 24, vole, country = person.      ofp: Maria.
+<_
+
+NOTE t=
+=~
+<2   * Variable order must match the list values order Simple to.
+<>   % Print unpacking is clean, easy and makes code
+<>      extend.
+<—
+—   ‘Rest collector’ Asterisk (*) :-
+
+nwrAaerr eure” RAsnA~n—-r—erer™m”’
+=“      ‘       Middl
+
+oe item        ease       task tm
+
+    [ [meria’) , [24], [a], [srain’) J
+2                Remit              Details          Country
+—— |            istic          { 29, de)       Spain
+>        person =  ( ' mavia’, 29, de’, ‘spain’ ]
+= 2
+
+Ext-       Fisce whist
+="        person = (‘maria , 24, ‘De’, ‘spain’ J
+. 2      name, * details , Country = person
+—— )          wat (    )            sh
+
+vin  name     o/P :  ari
+—;         P                    ip     IQ
+L.       print (details )     ofp: [ 24, DE)
+e > # £NOTE‘-
+——— )
+i    Tt is used when we want 15¢ and last elements we
+e
+use rest.
+
+a
+cE?    Only one asterisk (*) is allowed in unpacking .
+
+a )
+
+
+
+--- Page 56 ---
+Unpacking  Rules:- (#) —» stores the vest in new List.
+
+o/
+
+4. No. of variables must match the values exactly 2     a
+not less , not more.
+
+9. Asterisk (#*) collect leftovers , and it's fine if there
+
+‘Beeeew.
+
+aye none.
+Numbers = [J          ofp:-  e]               —
+—_—                    oe
+
+{            =     bers                        5
+first , Kvest = numbe         (list, tuple, strings , ete)          «
+You con unpack any Sequence .                   ce
+e-—
+Skipping Ttems underscores (“__”)                ce
+c
+
+Tt is used to = item
+
+[
+
+in          e
+
+ia   natin   country                      ial
+maria            spain                       oe
+os   ( t    ft         t    ’   t    ot                           =
+person =    mavia’, 24, DE , Spain J               ex
+(KOM pau, TO rae = Person                     Cc
+r——
+
+wat              =    c
+prin  (name )      olp   Maria                     af
+print (role)     o/p:-  DE                  ——
+We Can combine Asterisk (*) and (=).                  e
+,——
+
+( —
+[ Ae |      ;
+
+page                                                                       ~
+—_—_-                                                                        —
+
+
+
+--- Page 57 ---
+m
+
+v4
+
+Pid
+v
+
+a» rm rh Hh MM
+mrmmrenmhmmnrenrmrnmhnmhnmnmhnmnmnmhnmhnmnmnmm mmm mh hm MH
+
+en ee
+CU a SO SO SO SO OS OOO O° O° ©)
+
+|   d Anal  -
+Exp ore an   nalyze
+
+unctions going to give you quick snapshot +o
+
+Analyze +- Analyzing fi
+—=—o
+functions )
+
+find high , low total and. (
+
+[5 |      + mox() 2 > Find extreme high.
+ 300 | -» min() > 5 Find extreme low.
+     > sum() > -» Find the total.
+    > lead) > ++ Find the length.
+
+Completeness 3 existence check :-
+ee
+
+  = all() = Did everything pass?
+pelted =  any () —> [Tave | — Did something pass ?
+
+(methods)
+
+58
+
+|
+a
+fo)
+fo}
+
+c)
+b&  °o
+°
+
+|
+
+Search & count :-
+
+ra |e’ [18 | > .count('A’) > > How often ?
+‘AY [8° | ‘C!  = . index (‘A’) ad [0 | —~ where it appears ?
+2
+
+fe)  1
+
+membership § identity :-  Coperators)
+——  oer oe
+
+ in > > check if it exists?
+ is > > check if same object.
+
+Comparison =        (operators )
+———s
+
+— | TRUE}.
+
+— | FALSE).
+
+"
+"
+
+N
+
+
+--- Page 58 ---
+7 Changing tite    59
+
+4. How to Add new items :-
+we use -append() function.
+
+—> Append the new vatue at end of the List.
+
+Letters on ( *a', ‘hb’, 'e', ‘d']
+Add ‘x’ to the end of the list.
+
+TASK i-
+0] p:-  ( ‘a’, “Bs ey ‘d', ix")
+
+Letters . append Cx)
+
+Letters . append (‘4’)      o|p:-  Cea’, “wl, “2,8; ro ty]
+
+Insert At specific position.
+‘How we use . insert ()
+nuns Te) UBT, et, Aa
+print (num. insert (4, #9)       aie Cat, FB, 88]
+(insert at index 1)
+
+In 2D-Matrix :-
+Add new row to the end of matrix.
+materx = [ ('a',‘b, ‘eh, Ces te Pa Ce, ‘gt fT]
+—> Matrix Add new row at end of matrix.
+matrix. append ( [ ‘x’, 'y’, 271)
+print (matrix )
+—> Add New Row at the start of matrix.
+ootvixs wert (Co, ['e', "b',."t an
+
+print ( matrix )
+
+Oe eee ee ee ee ee
+
+
+--- Page 59 ---
+Add ‘x’ at the end of second row.
+motrix [1]. append (ix!)
+print (matrix )
+Add ‘Zz’ at the Start of first row.
+matrix [0]. insert (6, 'z’)
+Add ‘y’ at the 3rd row blw any 2 elements .
+matrix [2]. insert (2, 'y’)
+
+SUMMARY :-                                   cae. =                       \
+joo baa        ba     —_      m=[[1,2,3], (4,5, 6),(7,8,9]]
+e                  :        ;      £          .
+
+append (value): Add item ai        mn           m. remove ([ 1, 2,3])
+
++ insert (index, value): Add item ot           m. pop()
+specific position.        print (m)
+
+| m1] remove (‘c") — specific element)
+
+REMOVE ITEMS :—
+1. REMOVE  EVERYTHING :—
+letters = ['a', 'b’, 'c’]       ofp:- LJ
+print (letters. clear Q))
+
+or
+print ( letters )                   ofp:- LC]
+
+2. SPECIFIC VALUE :- Delete  kK value — |
+Remove :                                   by  position —» . pop ()
+
+letters = ['a’, 'b’, 'a’]
+print (letters . remove (‘a'))  ofp:- ['b',‘a']
+a   It    it   {t )  ofp:- ['b']
+
+e pop() :- Default —» Remove last item, remove & retums item
+le i fa’, b','e)       |   le = (tas *b*, *e"]
+
+removed = letter. pop(0)
+
+print (le)     ofp:- ['b’,'c')
+
+print (removed)  ofp:- ‘a’
+
+print (le. pop()) op:- ’ ¢’
+
+
